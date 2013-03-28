@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Search Twitter</title>
+<link href="/css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+		<form id="searchform" action="javascript:queryTwitter();">
+			<input id="searchterm" type="text" value="Search" onblur="if (this.value == '') {this.value = 'Search';}" onfocus="if (this.value == 'Search') {this.value = '';}" />
+			<button type="submit">Go</button>	
+		</form>
+		
+		<div id="error"></div>
+		
+		<ul id="result">
+		
+		</ul>
+	</div>
+	
+	<script type="text/javascript" src="/js/twittersearch.js"></script>
+</body>
+</html>
