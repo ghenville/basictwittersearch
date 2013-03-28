@@ -1,0 +1,40 @@
+body {
+  background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #4d4d4d;
+	margin: 10px;
+	padding: 0	
+}
+
+#wrapper {
+	width: 300px;
+	margin: 0 auto
+}
+
+input[type=text] {
+	width: 200px;
+	height: 18px;
+	padding: 8px;
+	background: #E1F0FF;
+	font-size: 15px;
+	border: 1px solid #eee
+}
+
+#error {
+	color: #c00;
+	text-align: center;
+	margin: 10px 0
+}
+
+ul#result {
+	list-style-type: none;
+	margin: 10px 0;
+	padding: 0	
+}
+
+ul#result li {
+	border-bottom: 1px solid #ddd;
+	padding: 0;
+	margin: 5px
+}
